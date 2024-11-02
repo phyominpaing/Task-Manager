@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import { doneTaskTotal, listTemplate, taskTotal } from "./selectors.js";
 import { v4 as uuidv4 } from 'uuid';
 
-export const tasks = ["To Read JS Book", "Learn React", "Learn Vue"];
+export const tasks = [];
 
 
 export const updateTaskTotal = () => {
